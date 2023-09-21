@@ -1,20 +1,19 @@
-
-import './App.css'
+import "./App.css";
 import Nav from './componets/Nav/Nav'
-import Title from './componets/Nav/Nav'
-function App() {
-  
+import Title from './componets/Title/Title'
 
+
+function App() {
   return (
     <>
-      <div>
+      <div className="nav">
         <Nav></Nav>
-       <Title></Title>
-
-      
+      </div>
+      <div className="titulo">
+        <Title></Title>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
